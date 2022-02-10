@@ -4,7 +4,7 @@ Install and enable remi yum repositories on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-remi/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-remi/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-remi/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-remi)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/remi)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/remi)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-remi.svg)](https://github.com/buluma/ansible-role-remi/releases/)|
+|[![github](https://github.com/buluma/ansible-role-remi/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-remi/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-remi/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-remi)|[![quality](https://img.shields.io/ansible/quality/58010)](https://galaxy.ansible.com/buluma/remi)|[![downloads](https://img.shields.io/ansible/role/d/58010)](https://galaxy.ansible.com/buluma/remi)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-remi.svg)](https://github.com/buluma/ansible-role-remi/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
