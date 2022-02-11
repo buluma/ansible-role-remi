@@ -38,10 +38,34 @@ testing:
       - image: "fedora-systemd"
         tag: "latest"
 
+role_testing:
+  script:
+    - image=${image} tag=${tag} ansible-galaxy install buluma.remi
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "testing"
+  retry: 1
+  parallel:
+    matrix:
+      - image: "enterpriselinux"
+        tag: "latest"
+      - image: "fedora-systemd"
+        tag: "34"
+      - image: "fedora-systemd"
+        tag: "latest"
+
 galaxy:
   script:
     - ansible-galaxy role info buluma.remi
 
-test_role:
+role_testing_live:
   script:
-    - ansible-galaxy install buluma.remi
+    - image=${image} tag=${tag} ansible-galaxy install buluma.remi
+  retry: 1
+  parallel:
+    matrix:
+      - image: "enterpriselinux"
+        tag: "latest"
+      - image: "fedora-systemd"
+        tag: "34"
+      - image: "fedora-systemd"
+        tag: "latest"
