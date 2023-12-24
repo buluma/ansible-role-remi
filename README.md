@@ -1,10 +1,10 @@
-# [Ansible role remi](#remi)
+# Ansible role [remi](https://galaxy.ansible.com/ui/standalone/roles/buluma/remi/documentation)
 
 Install and enable remi yum repositories on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-remi/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-remi/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-remi.svg)](https://github.com/buluma/ansible-role-remi/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-remi.svg)](https://github.com/buluma/ansible-role-remi/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-remi.svg)](https://github.com/buluma/ansible-role-remi/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-remi/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-remi/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-remi.svg)](https://github.com/buluma/ansible-role-remi/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-remi.svg)](https://github.com/buluma/ansible-role-remi/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-remi.svg)](https://github.com/buluma/ansible-role-remi/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/remi)](https://galaxy.ansible.com/ui/standalone/roles/buluma/remi/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -93,13 +93,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-remi/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-remi/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
