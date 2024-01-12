@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-remi/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-remi/compare/1.0.10...HEAD)
+
+**Closed issues:**
+
+- rebuild action [\#9](https://github.com/buluma/ansible-role-remi/issues/9)
+
 ## [1.0.10](https://github.com/buluma/ansible-role-remi/tree/1.0.10) (2024-01-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-remi/compare/1.0.9...1.0.10)
