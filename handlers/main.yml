@@ -1,14 +1,14 @@
 ---
 # handlers file for remi
 
-- name: reset php stream
+- name: Reset php stream
   ansible.builtin.command:
     cmd: dnf --assumeyes module reset php
-  args:
-    warn: no
+  changed_when: yes
   when:
     - ansible_pkg_mgr == "dnf"
 
-- name: enable repository
+- name: Enable repository
   ansible.builtin.command:
     cmd: "{{ remi_enable_repository_command }}"
+  changed_when: yes
