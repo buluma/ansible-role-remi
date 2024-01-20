@@ -9,6 +9,10 @@
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#11](https://github.com/buluma/ansible-role-remi/issues/11)
 - rebuild action [\#9](https://github.com/buluma/ansible-role-remi/issues/9)
 
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#14](https://github.com/buluma/ansible-role-remi/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.0.10](https://github.com/buluma/ansible-role-remi/tree/1.0.10) (2024-01-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-remi/compare/1.0.9...1.0.10)
