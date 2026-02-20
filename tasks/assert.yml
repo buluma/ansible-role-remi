@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test remi_repository_selection
   ansible.builtin.assert:
     that:
