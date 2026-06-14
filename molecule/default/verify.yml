@@ -19,6 +19,7 @@
 
     - name: Verify the version of php
       ansible.builtin.command:
+      changed_when: false
         cmd: php --version
       register: remi_version_of_php
       failed_when:
