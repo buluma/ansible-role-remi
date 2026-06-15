@@ -19,8 +19,8 @@
 
     - name: Verify the version of php
       ansible.builtin.command:
-      changed_when: false
         cmd: php --version
+      changed_when: false
       register: remi_version_of_php
       failed_when:
         - "'PHP 8.1' not in remi_version_of_php.stdout"
