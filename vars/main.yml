@@ -15,6 +15,14 @@ _remi_argument:
     php73: php:remi-7.3
     php74: php:remi-7.4
     php81: php:remi-8.1
+  dnf5:
+    php54: php:remi-5.4
+    php70: php:remi-7.0
+    php71: php:remi-7.1
+    php72: php:remi-7.2
+    php73: php:remi-7.3
+    php74: php:remi-7.4
+    php81: php:remi-8.1
   yum:
     php54: remi-php54
     php70: remi-php70

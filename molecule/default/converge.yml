@@ -6,4 +6,4 @@
 
   roles:
     - role: buluma.remi
-      remi_enabled_repositories: php74
+      remi_repository_selection: php74
