@@ -35,7 +35,7 @@ _remi_argument:
 remi_argument: "{{ _remi_argument[ansible_facts['pkg_mgr']][remi_repository_selection] }}"
 
 _remi_enable_repository_command:
-  default: dnf --assumeyes module install {{ remi_argument }}
+  default: "{% if ansible_facts['pkg_mgr'] == 'dnf5' %}dnf5 module enable --assumeyes {{ remi_argument }}{% else %}dnf --assumeyes module install {{ remi_argument }}{% endif %}"
   CentOS-7: yum-config-manager --enable {{ remi_argument }}
 
 remi_enable_repository_command: "{{ _remi_enable_repository_command[ansible_facts['distribution'] ~ '-' ~ ansible_facts['distribution_major_version']] | default(_remi_enable_repository_command['default']
