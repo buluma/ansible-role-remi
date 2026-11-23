@@ -19,7 +19,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
   roles:
     - role: buluma.remi
-      remi_enabled_repositories: php74
+      remi_repository_selection: php74
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-remi/blob/master/molecule/default/prepare.yml):
@@ -106,9 +106,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |container|tags|
 |---------|----|
 |[EL](https://hub.docker.com/r/buluma/docker-molecule-images)|10, 9|
-|[Debian](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
 |[Fedora](https://hub.docker.com/r/buluma/docker-molecule-images)|44, 43|
-|[Ubuntu](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
 
 The minimum version of Ansible required is 2.19, tests have been done on:
 
